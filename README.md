@@ -37,7 +37,7 @@ This repository includes both microservices/Node.js applications, "guestbook-mai
 ### Prerequisites
 
 - Install the latest version of the IBM Cloud CLI: [IBM Cloud CLI Tutorial](https://cloud.ibm.com/docs/cli?topic=cloud-cli-getting-started)
-- If not present, create Account on IBM Cloud: [IBM Cloud Registration](https://cloud.ibm.com/registration)
+- If not present, create Account on IBM Cloud: [IBM Cloud Registration](https://ibm.biz/BdqaJE)
 - Create an organization and space for Cloud Foundry: [CF Org and Space Creation Manual](https://cloud.ibm.com/docs/account?topic=account-orgsspacesusers)
 - Log into your Cloud Foundry organization and space: [CF Org and Space Configuration Tutorial](https://cloud.ibm.com/docs/cli?topic=cloud-cli-getting-started#step3-configure-idt-env)
 - Install the latest version of Git: [Git Download Page](https://git-scm.com/downloads)
