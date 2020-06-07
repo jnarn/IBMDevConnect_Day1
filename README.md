@@ -12,12 +12,8 @@ This project is a demonstration of Node.js Microservices and Container-to-Contai
   - [Prerequisites](#prerequisites)
   - [Local Setup](#local-setup)
   - [Guestbook-Main](#guestbook-main)
-  - [Guestbook-Watson](#guestbook-watson)
-  - [Connecting Both Applications](#connecting-both-applications)
-  - [Container-to-Container Networking](#container-to-container-networking)
   - [Local Testing (optional)](#local-testing-optional)
     - [Deploying Guestbook-Main locally](#deploying-guestbook-main-locally)
-    - [Deploying Guestbook-Watson locally](#deploying-guestbook-watson-locally)
 - [License](#license)
 
 ## Architecture
