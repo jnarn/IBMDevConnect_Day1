@@ -11,6 +11,7 @@ This project is a demonstration of Node.js Microservices and Container-to-Contai
 - [Deployment](#deployment)
   - [Prerequisites](#prerequisites)
   - [Local Setup](#local-setup)
+  - [Using IBM Cloud Shell](#cloud-shell)
   - [Guestbook-Main](#guestbook-main)
   - [Local Testing (optional)](#local-testing-optional)
     - [Deploying Guestbook-Main locally](#deploying-guestbook-main-locally)
@@ -23,7 +24,6 @@ This project is a demonstration of Node.js Microservices and Container-to-Contai
 1. The frontend/interface for the user is served by the "guestbook-main" application (left Node.js application)
 2. Backend API calls for creating a new guestbook entry, retrieving of entries and retrieving of images
 3. Save/Retrieve entries in/from the connected Cloudant database
-4. Retrieve the image stream from the Cloudant Blob store by using the previously (in step 3) created URL
 
 ## Repository
 
@@ -45,6 +45,14 @@ This repository includes both microservices/Node.js applications, "guestbook-mai
 ### Local Setup
 
 1. First, open a terminal in a directory of your choice on your local computer.
+2. Clone this Git repository by using the command: `git clone https://github.com/IBMDevConnect/cf-nodejs-c2c-demo.git`.
+3. Following, use the command `cd cf-nodejs-c2c-demo` to navigate into the project directory.
+
+OR 
+
+### Using IBM Cloud Shell
+
+1. In the IBM Cloud console, click the IBM Cloud Shell icon IBM Cloud Shell icon. A session starts and automatically logs you in through the IBM Cloud CLI.
 2. Clone this Git repository by using the command: `git clone https://github.com/IBMDevConnect/cf-nodejs-c2c-demo.git`.
 3. Following, use the command `cd cf-nodejs-c2c-demo` to navigate into the project directory.
 
