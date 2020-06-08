@@ -52,7 +52,10 @@ OR
 
 ### Using IBM Cloud Shell
 
-1. In the IBM Cloud console, click the IBM Cloud Shell icon IBM Cloud Shell icon. A session starts and automatically logs you in through the IBM Cloud CLI.
+1. In the IBM Cloud console, click the IBM Cloud Shell icon IBM Cloud Shell icon. A session starts and automatically logs you in 
+through the IBM Cloud CLI.
+![Shell](.docs/cloudshell.png)
+
 2. Clone this Git repository by using the command: `git clone https://github.com/IBMDevConnect/cf-nodejs-c2c-demo.git`.
 3. Following, use the command `cd cf-nodejs-c2c-demo` to navigate into the project directory.
 
