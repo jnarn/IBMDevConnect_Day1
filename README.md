@@ -59,6 +59,14 @@ through the IBM Cloud CLI.
 2. Clone this Git repository by using the command: `git clone https://github.com/IBMDevConnect/cf-nodejs-c2c-demo.git`.
 3. Following, use the command `cd cf-nodejs-c2c-demo` to navigate into the project directory.
 
+## setup Org and space
+
+1. Go to Manage->Account->Cloud Foundry org. This will give you the name of the org(mostly your email id , and space).
+2. Target region using command ```ibmcloud target -r <region>```. eg `ibmcloud target -r eu-gb`
+3. Target org and space using ```ibmcloud target -o <org name> -s <space name>```. eg `ibmcloud target -o abc@abc.com -s dev`
+  
+  Note: In case you are using Cloud Shell, Command may fail initially. 
+
 ### Guestbook-Main
 
 1. Go to the IBM Cloud "Catalog" by clicking on the same-named navigation item on the IBM CLoud Dashboard or by opening the following link: [https://cloud.ibm.com/catalog](https://cloud.ibm.com/catalog)
