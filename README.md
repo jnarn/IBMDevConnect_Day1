@@ -59,8 +59,8 @@ OR
 ## setup Org and space
 
 1. Go to Manage->Account->Cloud Foundry org. This will give you the name of the org(mostly your email id , and space).
-2. Target region using command 'ibmcloud target -r <region>'. eg ibmcloud target -r eu-gb
-3. Target org and space using 'ibmcloud target -o <org name> -s <space name>'. eg ibmcloud target -o abc@abc.com -s dev
+2. Target region using command ```ibmcloud target -r <region>```. eg `ibmcloud target -r eu-gb`
+3. Target org and space using ```ibmcloud target -o <org name> -s <space name>```. eg `ibmcloud target -o abc@abc.com -s dev`
   
   Note: In case you are using Cloud Shell, Command may fail initially. 
 
